@@ -1,11 +1,18 @@
+--EZ3
 USE AdventureWorks2008;
 GO
+IF OBJECT_ID('dbo.orders') IS NOT NULL
+	DROP FUNCTION dbo.orders;
+GO
 
- CREATE FUNCTION dbo.Zamowienia(@nazwiskoodbiorcy AS nchar(25)) RETURNS TABLE 
- AS
- RETURN
- SELECT SC.CustomerID, SC.PersonID, PP.BusinessEntityID FROM Sales.Customer SC JOIN Sales.SalesOrderHeader SSOH 
- ON SSOH.CustomerID = SC.CustomerID JOIN Person.Person PP 
- ON PP.BusinessEntityID = SC.PersonID
+CREATE FUNCTION dbo.orders(@LastName AS nchar(255))
+RETURNS TABLE AS
+RETURN
+	SELECT sc.CustomerID, sc.PersonID, pp.BusinessEntityID
+	FROM Sales.Customer sc
+	JOIN Sales.SalesOrderHeader ssoh ON ssoh.CustomerID = sc.CustomerID
+	JOIN Person.Person pp ON pp.BusinessEntityID = sc.PersonID
+	WHERE pp.LastName=@LastName
 
- select * from dbo.zamowienia('Adams'); -- test 
+GO
+SELECT * FROM dbo.orders('Adams');

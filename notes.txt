@@ -7,3 +7,10 @@ Funkcje:
 
 GROUPING SETS
 PIVOT, UNPIVOT
+WITH
+
+=== LAB_3 ===
+UDF - user defined functions
+TVF - table valued functions
+CTE - common table expression
+SCHEMABINDING
