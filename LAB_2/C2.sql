@@ -1,0 +1,1 @@
+--Opracuj zapytanie dla przyk³adów z punktu Skrypt Lab02.08 i  Skrypt Lab02.09 z wykorzystaniem operatora CASE.
