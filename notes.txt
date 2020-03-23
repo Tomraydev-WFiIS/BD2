@@ -1,4 +1,4 @@
-=== LAB_2 ===
+===== LAB_2 =====
 Funkcje:
 	RANK()
 	DENSE_RANK()
@@ -9,8 +9,15 @@ GROUPING SETS
 PIVOT, UNPIVOT
 WITH
 
-=== LAB_3 ===
+===== LAB_3 =====
 UDF - user defined functions
 TVF - table valued functions
 CTE - common table expression
 SCHEMABINDING
+
+===== LAB_4 =====
+CREATE PROC
+DENY <UPRAWNIENIE>
+GRANT <uPRAWNIENIE>
+CREATE TRIGGER
+SET STATISTICS IO ON
