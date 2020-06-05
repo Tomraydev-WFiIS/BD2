@@ -1,0 +1,5 @@
+C:\Users\Administrator\Desktop\BAZY_2\LAB_11\Z4\Z4\bin\Debug\Z4.exe
+C:\Users\Administrator\Desktop\BAZY_2\LAB_11\Z4\Z4\bin\Debug\Z4.pdb
+C:\Users\Administrator\Desktop\BAZY_2\LAB_11\Z4\Z4\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\BAZY_2\LAB_11\Z4\Z4\obj\Debug\Z4.exe
+C:\Users\Administrator\Desktop\BAZY_2\LAB_11\Z4\Z4\obj\Debug\Z4.pdb

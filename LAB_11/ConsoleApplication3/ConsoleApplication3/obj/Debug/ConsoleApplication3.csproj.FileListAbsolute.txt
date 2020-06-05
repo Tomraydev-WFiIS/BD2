@@ -1,0 +1,5 @@
+C:\Users\Administrator\Desktop\BAZY_2\LAB_11\ConsoleApplication3\ConsoleApplication3\bin\Debug\ConsoleApplication3.exe
+C:\Users\Administrator\Desktop\BAZY_2\LAB_11\ConsoleApplication3\ConsoleApplication3\bin\Debug\ConsoleApplication3.pdb
+C:\Users\Administrator\Desktop\BAZY_2\LAB_11\ConsoleApplication3\ConsoleApplication3\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\BAZY_2\LAB_11\ConsoleApplication3\ConsoleApplication3\obj\Debug\ConsoleApplication3.exe
+C:\Users\Administrator\Desktop\BAZY_2\LAB_11\ConsoleApplication3\ConsoleApplication3\obj\Debug\ConsoleApplication3.pdb
